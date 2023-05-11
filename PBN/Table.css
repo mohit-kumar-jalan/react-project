@@ -1,0 +1,42 @@
+.container2 {
+    width: 1170px;
+    margin: auto;
+  }
+  .activity1 {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 30px;
+    gap: 30px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .tabs li {
+    margin-left: 20px !important;
+    padding: 5px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #e0e1e5;
+  }
+  
+  th {
+    background-color: #e0e1e5;
+  }
+  .selected {
+    background: #eef6fb;
+  }
+  tr {
+    background: #e0e1e5;
+  }
+  

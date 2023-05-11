@@ -1,0 +1,40 @@
+.actionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tabs li {
+    margin-left: 20px !important;
+  }
+  .actions {
+    overflow: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 10px 25px;
+    align-items: center;
+    display: "flex";
+  }
+  .card {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .tag {
+    border-radius: 16px;
+    width: fit-content;
+  
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  

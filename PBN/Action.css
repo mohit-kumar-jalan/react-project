@@ -1,0 +1,70 @@
+.actionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tabs li {
+    margin-left: 20px !important;
+    padding: 5px;
+  }
+  .actions {
+    overflow: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 10px 25px;
+    align-items: center;
+    display: "flex";
+    margin-bottom: 10px;
+  }
+  .card {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .selected {
+    background: #eef6fb;
+  }
+  .tick-container {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #eaeaec;
+    position: relative;
+    border-radius: 40%;
+  }
+  
+  .tick {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 10px;
+    height: 10px;
+    color: #4ad2bb;
+  }
+  .cross {
+    color: #d8544f;
+    top: 39%;
+    left: 58%;
+  }
+  .tag {
+    border-radius: 16px;
+    width: fit-content;
+  
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .tabs {
+    display: flex;
+    padding-bottom: 10px;
+  }

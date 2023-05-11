@@ -1,0 +1,39 @@
+.filter {
+    background-color: #f8f9fb;
+    border-radius: 10px;
+    padding-left: 30px;
+  }
+  .list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+    list-style-type: none;
+  }
+  .selectAll {
+    color: skyblue;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+  .selected {
+    background-color: #eef6fb;
+    border-radius: 5px;
+  }
+  .dot {
+    display: flex;
+    width: 5px;
+    height: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: -6px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .list li {
+    display: flex;
+  }
+  
